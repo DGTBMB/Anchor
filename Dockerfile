@@ -34,4 +34,6 @@ RUN python -m pip install -r requirements.txt
 
 ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:8080", "main:app" , "-t", "240"]
 
+CMD ["python", "main.py"]
+
 

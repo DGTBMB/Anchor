@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  AnchorsAway:
+  anchor1219:
     image: cfc
     build:
       context: .
@@ -11,4 +11,4 @@ services:
       - 1:5678
       - 8080:8080
     environment:
-      - FLASK_APP=app.py
+      - FLASK_APP=main.py

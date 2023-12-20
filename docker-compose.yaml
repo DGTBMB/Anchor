@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  AnchorsAway:
+  anchor1219:
     image: cfc
     build:
       context: .
